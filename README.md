@@ -24,4 +24,4 @@ Then replace line 12 in 'server.py' of the web example with a link to your own c
 ![Frontend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/2frontend_product.png)
 ![Frontend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/3frontend_product_pay.png)
 ![Backend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/4backend_classify.png)
-![Backend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/5backend_classify2.pngg)
+![Backend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/5backend_classify2.png)
