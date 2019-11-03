@@ -20,6 +20,8 @@ Starter for deploying fast.ai models on Render https://github.com/render-example
 
 Then replace line 12 in 'server.py' of the web example with a link to your own classifier pkl file and re-deploy
 
+Demo:
+
 ![Frontend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/1frontend_login.png)
 ![Frontend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/2frontend_product.png)
 ![Frontend](https://github.com/KongVo/Eye-Disease-Classifier/blob/master/demo/3frontend_product_pay.png)
