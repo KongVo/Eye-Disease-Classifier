@@ -1,0 +1,66 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='../static/style.css'>
+  <script src='../static/client.js'></script>
+</head>
+<body>
+<div>
+  <div class='center'>
+    <div class='title'>Classify Eyes Images for Disease Detection</div>
+    <p>
+      Use images of <strong>Eyes</strong>
+    </p>
+    <div class='content'>
+      <div class='no-display'>
+        <input id='file-input'
+               class='no-display'
+               type='file'
+               name='file'
+               accept='image/*'
+               onchange='showPicked(this)'>
+      </div>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <div class='upload-label'>
+        <label id='upload-label'>No file chosen</label>
+      </div>
+      <div>
+        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+      </div>
+      <div class='analyze'>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+      </div>
+      <div class='result-label'>
+        <label id='result-label'></label>
+			<table border=1 frame=void rules=rows>
+			<tbody>
+			<tr>
+			<td><strong>&nbsp;Eye Disease</strong></td>
+			<td><strong>&nbsp;Disease symptoms</strong></td>
+			</tr>
+			<tr>
+			<td>&nbsp;Macular degeneration</td>
+			<td>&nbsp;a disease that damages the eye’s macula, located in the center of the retina, causing a loss of sharp, central vision needed for tasks like reading and driving.</td>
+			</tr>
+			<tr>
+			<td>&nbsp;Cataracts</td>
+			<td>&nbsp;a clouding of the eye’s usually clear lens and is the leading cause of blindness.</td>
+			</tr>
+			<tr>
+			<td>&nbsp;Diabetic retinopathy</td>
+			<td>&nbsp;a disorder in which the rod and cone cells in the retina deteriorate causing impaired or loss of vision.</td>
+			</tr>
+			<tr>
+			<td>&nbsp;Glaucoma</td>
+			<td>&nbsp;a disease that gradually damages the optic nerve that carries visual signals from the eye to the brain.</td>
+			</tr>
+			</tbody>
+			</table>
+      </div> 
+	</div>
+	
+
+  </div>
+</div>
+</body>
+</html>
